@@ -1,0 +1,26 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+//@prisma/client 
+//@prisma/
+
+// Como creé una tabla desde prisma, se tiene que migrar 
+// los modelos como USERS con el siguiente comando:
+// $ npx prisma migrate dev --name init
+// Despues se creara un archivo SQL de los mdelos que creamos
+// y ya se creo tambien la base de datos en mysql.
+
+model users {
+  id Int @id @default(autoincrement())
+  nameUser String
+  emailUser String
+}

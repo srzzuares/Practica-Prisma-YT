@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/srzzuares/Practica-Prisma-YT/issues"
   },
-  "homepage": "https://github.com/srzzuares/Practica-Prisma-YT#readme"
+  "homepage": "https://github.com/srzzuares/Practica-Prisma-YT#readme",
+  "dependencies": {
+    "@prisma/client": "^4.9.0"
+  }
 }

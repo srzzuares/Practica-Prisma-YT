@@ -1,0 +1,19 @@
+{
+  "name": "1.-prismabasico",
+  "version": "1.0.0",
+  "description": "Este Repositorio Sera Para Practicas De Prisma ORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "CsSuar",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^4.9.0"
+  },
+  "bugs": {
+    "url": "https://github.com/srzzuares/Practica-Prisma-YT/issues"
+  },
+  "homepage": "https://github.com/srzzuares/Practica-Prisma-YT#readme"
+}

@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/srzzuares/Practica-Prisma-YT/issues"
   },
-  "homepage": "https://github.com/srzzuares/Practica-Prisma-YT#readme"
+  "homepage": "https://github.com/srzzuares/Practica-Prisma-YT#readme",
+  "devDependencies": {
+    "express": "^4.18.2"
+  }
 }

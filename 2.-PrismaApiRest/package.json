@@ -15,6 +15,7 @@
     "prisma": "^4.9.0"
   },
   "dependencies": {
-    "@prisma/client": "^4.9.0"
+    "@prisma/client": "^4.9.0",
+    "vue": "^3.2.45"
   }
 }
